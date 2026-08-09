@@ -1,903 +1,776 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>HCHS FBLA | Houston County High School</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&display=swap"
-        rel="stylesheet"
-    >
-</head>
-
-<body>
-
-<!-- ================= NAVBAR ================= -->
-
-<header class="navbar">
-
-    <div class="nav-container">
-
-        <a href="#home" class="brand">
-
-            <div class="brand-logo">
-                <img src="images/bear-logo.png" alt="Houston County High School Bear">
-            </div>
-
-            <div class="brand-text">
-                <strong>HCHS</strong>
-                <span>FBLA</span>
-            </div>
-
-        </a>
-
-        <nav id="mainNav">
-
-            <a href="#home">Home</a>
-            <a href="#story">Our Story</a>
-            <a href="#leadership">Leadership</a>
-            <a href="#join">Join</a>
-            <a href="#calendar">Calendar</a>
-            <a href="#faq">FAQ</a>
-
-        </nav>
-
-        <button class="menu-button" onclick="toggleMenu()">
-            ☰
-        </button>
-
-    </div>
-
-</header>
-
-
-<!-- ================= HERO ================= -->
-
-<section id="home" class="hero">
-
-    <div class="hero-background"></div>
-
-    <div class="hero-content">
-
-        <div class="hero-label">
-            HOUSTON COUNTY HIGH SCHOOL
-        </div>
-
-        <h1>
-            FUTURE
-            <span>BUSINESS</span>
-            LEADERS
-        </h1>
-
-        <p>
-            Building leaders. Creating opportunities.
-            Preparing students for what's next.
-        </p>
-
-        <div class="hero-buttons">
-
-            <a href="#join" class="button button-light">
-                JOIN FBLA
-            </a>
-
-            <a href="#story" class="button button-outline">
-                LEARN MORE
-            </a>
-
-        </div>
-
-    </div>
-
-
-    <div class="hero-bear">
-
-        <div class="bear-glow"></div>
-
-        <img
-            src="images/bear-logo.png"
-            alt="HCHS Bear"
-        >
-
-        <div class="bear-text">
-            <span>BEAR</span>
-            <strong>DOWN</strong>
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= SCHOOL STRIP ================= -->
-
-<section class="school-strip">
-
-    <div>
-        <strong>BLACK</strong>
-        <span>School Pride</span>
-    </div>
-
-    <div>
-        <strong>SILVER</strong>
-        <span>Leadership</span>
-    </div>
-
-    <div>
-        <strong>WHITE</strong>
-        <span>Excellence</span>
-    </div>
-
-</section>
-
-
-<!-- ================= INTRO ================= -->
-
-<section class="intro section">
-
-    <div class="section-tag">
-        WELCOME TO HCHS FBLA
-    </div>
-
-    <h2>
-        Where students become
-        <span>future leaders.</span>
-    </h2>
-
-    <p class="large-text">
-        Houston County High School FBLA provides students with
-        opportunities to develop leadership skills, explore careers,
-        compete, serve their school and community, and connect with
-        other future business leaders.
-    </p>
-
-</section>
-
-
-<!-- ================= STORY ================= -->
-
-<section id="story" class="story section">
-
-    <div class="section-heading">
-
-        <div class="section-tag">
-            WHO WE ARE
-        </div>
-
-        <h2>
-            Our Story &
-            <span>Mission</span>
-        </h2>
-
-    </div>
-
-
-    <div class="story-grid">
-
-        <div class="story-copy">
-
-            <p>
-                FBLA brings business and education together through
-                leadership and career development opportunities.
-            </p>
-
-            <p>
-                At Houston County High School, our chapter gives
-                students the chance to grow as leaders while becoming
-                involved in competitions, conferences, service projects,
-                and school activities.
-            </p>
-
-            <p>
-                We believe that leadership isn't just about holding
-                a position. It's about showing up, helping others,
-                taking initiative, and making an impact.
-            </p>
-
-        </div>
-
-
-        <div class="mission-box">
-
-            <div class="mission-number">
-                01
-            </div>
-
-            <div class="mission-line"></div>
-
-            <h3>
-                Excellence in
-                leadership,
-                service &
-                opportunity.
-            </h3>
-
-            <p>
-                HCHS FBLA
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= LEADERSHIP ================= -->
-
-<section id="leadership" class="leadership section">
-
-    <div class="section-heading centered">
-
-        <div class="section-tag">
-            MEET THE TEAM
-        </div>
-
-        <h2>
-            Our
-            <span>Leadership</span>
-        </h2>
-
-        <p>
-            Meet the students helping lead HCHS FBLA.
-        </p>
-
-    </div>
-
-
-    <div class="officer-grid">
-
-        <!-- OFFICER 1 -->
-
-        <div class="officer-card">
-
-            <div class="officer-image">
-                <img
-                    src="images/officers/officer1.jpg"
-                    alt="Officer Name"
-                >
-            </div>
-
-            <div class="officer-info">
-                <h3>Officer Name</h3>
-                <p>President</p>
-            </div>
-
-        </div>
-
-
-        <!-- OFFICER 2 -->
-
-        <div class="officer-card">
-
-            <div class="officer-image">
-                <img
-                    src="images/officers/officer2.jpg"
-                    alt="Officer Name"
-                >
-            </div>
-
-            <div class="officer-info">
-                <h3>Officer Name</h3>
-                <p>Vice President</p>
-            </div>
-
-        </div>
-
-
-        <!-- OFFICER 3 -->
-
-        <div class="officer-card">
-
-            <div class="officer-image">
-                <img
-                    src="images/officers/officer3.jpg"
-                    alt="Officer Name"
-                >
-            </div>
-
-            <div class="officer-info">
-                <h3>Officer Name</h3>
-                <p>Secretary</p>
-            </div>
-
-        </div>
-
-
-        <!-- OFFICER 4 -->
-
-        <div class="officer-card">
-
-            <div class="officer-image">
-                <img
-                    src="images/officers/officer4.jpg"
-                    alt="Officer Name"
-                >
-            </div>
-
-            <div class="officer-info">
-                <h3>Officer Name</h3>
-                <p>Treasurer</p>
-            </div>
-
-        </div>
-
-
-        <!-- OFFICERS 5-31 -->
-
-        <script>
-
-            for(let i = 5; i <= 31; i++) {
-
-                document.write(`
-
-                    <div class="officer-card">
-
-                        <div class="officer-image">
-
-                            <img
-                                src="images/officers/officer${i}.jpg"
-                                alt="Officer ${i}"
-                            >
-
-                        </div>
-
-                        <div class="officer-info">
-
-                            <h3>Officer Name</h3>
-
-                            <p>Officer</p>
-
-                        </div>
-
-                    </div>
-
-                `);
-
-            }
-
-        </script>
-
-    </div>
-
-</section>
-
-
-<!-- ================= WHY JOIN ================= -->
-
-<section id="join" class="join section">
-
-    <div class="section-heading centered">
-
-        <div class="section-tag">
-            WHY FBLA?
-        </div>
-
-        <h2>
-            More than a
-            <span>club.</span>
-        </h2>
-
-    </div>
-
-
-    <div class="benefit-grid">
-
-        <div class="benefit">
-
-            <div class="benefit-number">01</div>
-
-            <h3>Leadership</h3>
-
-            <p>
-                Build confidence, communication, teamwork,
-                and leadership skills.
-            </p>
-
-        </div>
-
-
-        <div class="benefit">
-
-            <div class="benefit-number">02</div>
-
-            <h3>Competition</h3>
-
-            <p>
-                Challenge yourself through competitive events
-                and represent HCHS.
-            </p>
-
-        </div>
-
-
-        <div class="benefit">
-
-            <div class="benefit-number">03</div>
-
-            <h3>Networking</h3>
-
-            <p>
-                Meet students, professionals, and future
-                business leaders.
-            </p>
-
-        </div>
-
-
-        <div class="benefit">
-
-            <div class="benefit-number">04</div>
-
-            <h3>Experience</h3>
-
-            <p>
-                Gain real-world experiences that can help
-                prepare you for college and careers.
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= HOW TO JOIN ================= -->
-
-<section class="how-to section">
-
-    <div class="section-heading">
-
-        <div class="section-tag">
-            GET INVOLVED
-        </div>
-
-        <h2>
-            How to
-            <span>Join</span>
-        </h2>
-
-    </div>
-
-
-    <div class="steps">
-
-        <div class="step">
-
-            <div class="step-number">
-                01
-            </div>
-
-            <div>
-                <h3>Learn About FBLA</h3>
-
-                <p>
-                    Discover what FBLA offers and find
-                    opportunities that interest you.
-                </p>
-            </div>
-
-        </div>
-
-
-        <div class="step">
-
-            <div class="step-number">
-                02
-            </div>
-
-            <div>
-                <h3>Register</h3>
-
-                <p>
-                    Complete the membership registration
-                    process through the chapter.
-                </p>
-            </div>
-
-        </div>
-
-
-        <div class="step">
-
-            <div class="step-number">
-                03
-            </div>
-
-            <div>
-                <h3>Pay Your Dues</h3>
-
-                <p>
-                    HCHS currently lists FBLA membership
-                    dues at $30.
-                </p>
-            </div>
-
-        </div>
-
-
-        <div class="step">
-
-            <div class="step-number">
-                04
-            </div>
-
-            <div>
-                <h3>Get Involved</h3>
-
-                <p>
-                    Attend meetings, participate in events,
-                    compete, and make an impact.
-                </p>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= DUES ================= -->
-
-<section class="dues">
-
-    <div class="dues-inner">
-
-        <div>
-
-            <div class="section-tag silver-text">
-                MEMBERSHIP
-            </div>
-
-            <h2>
-                Join the
-                <span>movement.</span>
-            </h2>
-
-        </div>
-
-
-        <div class="dues-price">
-
-            <span>$</span>
-            30
-
-            <small>
-                current HCHS FBLA dues
-            </small>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= CALENDAR ================= -->
-
-<section id="calendar" class="calendar section">
-
-    <div class="section-heading centered">
-
-        <div class="section-tag">
-            STAY IN THE KNOW
-        </div>
-
-        <h2>
-            Chapter
-            <span>Calendar</span>
-        </h2>
-
-        <p>
-            Keep up with meetings, competitions,
-            conferences, and chapter events.
-        </p>
-
-    </div>
-
-
-    <div class="calendar-slider">
-
-        <button
-            class="calendar-button"
-            onclick="previousMonth()"
-            aria-label="Previous month"
-        >
-            ←
-        </button>
-
-
-        <div class="calendar-card">
-
-            <div
-                class="calendar-month"
-                id="monthLabel"
-            >
-                September 2026
-            </div>
-
-
-            <div class="calendar-image">
-
-                <img
-                    id="calendarImage"
-                    src="calendar/september.png"
-                    alt="September 2026 HCHS FBLA Calendar"
-                >
-
-            </div>
-
-        </div>
-
-
-        <button
-            class="calendar-button"
-            onclick="nextMonth()"
-            aria-label="Next month"
-        >
-            →
-        </button>
-
-    </div>
-
-
-    <div
-        class="calendar-dots"
-        id="calendarDots"
-    ></div>
-
-</section>
-
-
-<!-- ================= FAQ ================= -->
-
-<section id="faq" class="faq section">
-
-    <div class="section-heading centered">
-
-        <div class="section-tag">
-            QUESTIONS?
-        </div>
-
-        <h2>
-            Frequently Asked
-            <span>Questions</span>
-        </h2>
-
-    </div>
-
-
-    <div class="faq-container">
-
-
-        <div class="faq-item">
-
-            <button onclick="toggleFAQ(this)">
-
-                <span>
-                    Who can join HCHS FBLA?
-                </span>
-
-                <b>+</b>
-
-            </button>
-
-            <div class="faq-answer">
-
-                <p>
-                    Membership is open to all HCHS students.
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="faq-item">
-
-            <button onclick="toggleFAQ(this)">
-
-                <span>
-                    How much are FBLA dues?
-                </span>
-
-                <b>+</b>
-
-            </button>
-
-            <div class="faq-answer">
-
-                <p>
-                    The HCHS website currently lists FBLA
-                    membership dues at $30.
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="faq-item">
-
-            <button onclick="toggleFAQ(this)">
-
-                <span>
-                    Do I have to compete?
-                </span>
-
-                <b>+</b>
-
-            </button>
-
-            <div class="faq-answer">
-
-                <p>
-                    FBLA offers competitive events, but there
-                    are also many other ways to participate
-                    in chapter activities.
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="faq-item">
-
-            <button onclick="toggleFAQ(this)">
-
-                <span>
-                    What does FBLA do?
-                </span>
-
-                <b>+</b>
-
-            </button>
-
-            <div class="faq-answer">
-
-                <p>
-                    Members can participate in leadership
-                    development, competitions, conferences,
-                    networking, and school or community
-                    service projects.
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="faq-item">
-
-            <button onclick="toggleFAQ(this)">
-
-                <span>
-                    When are meetings?
-                </span>
-
-                <b>+</b>
-
-            </button>
-
-            <div class="faq-answer">
-
-                <p>
-                    Meeting dates and important chapter events
-                    will be posted on the HCHS FBLA calendar.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= CTA ================= -->
-
-<section class="final-cta">
-
-    <div class="cta-bear">
-
-        <img
-            src="images/bear-logo.png"
-            alt="HCHS Bear"
-        >
-
-    </div>
-
-    <div>
-
-        <div class="section-tag silver-text">
-            HOUSTON COUNTY HIGH SCHOOL
-        </div>
-
-        <h2>
-            BEAR DOWN.
-            <span>LEAD FORWARD.</span>
-        </h2>
-
-    </div>
-
-</section>
-
-
-<!-- ================= FOOTER ================= -->
-
-<footer>
-
-    <div class="footer-main">
-
-        <div class="footer-brand">
-
-            <img
-                src="images/bear-logo.png"
-                alt="HCHS Bear"
-            >
-
-            <div>
-
-                <strong>HCHS FBLA</strong>
-
-                <p>
-                    Houston County High School<br>
-                    Warner Robins, Georgia
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="footer-links">
-
-            <a href="#home">Home</a>
-            <a href="#story">Our Story</a>
-            <a href="#leadership">Leadership</a>
-            <a href="#join">Join FBLA</a>
-            <a href="#calendar">Calendar</a>
-            <a href="#faq">FAQ</a>
-
-        </div>
-
-    </div>
-footer {
-    background: white !important;
-    color: black !important;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-footer * {
-    color: black !important;
+html {
+  scroll-behavior: smooth;
 }
 
-    <div class="footer-bottom">
+body {
+  font-family: Montserrat, Arial, sans-serif;
+  background: #f7f7f5;
+  color: #17191d;
+}
 
-        <span>
-            © 2026 HCHS FBLA
-        </span>
-
-        <span>
-            BEAR DOWN
-        </span>
-
-    </div>
-
-</footer>
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 
-<script src="script.js"></script>
+/* ================= NAVBAR ================= */
 
-</body>
-</html>
+.navbar {
+  height: 78px;
+  background: #10151b;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #2d3339;
+}
+
+.nav-inner {
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+  padding: 0 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.brand {
+  margin-right: auto;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.navbar nav a {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.menu-button {
+  display: none;
+  background: none;
+  border: 0;
+  color: white;
+  font-size: 24px;
+}
+
+
+/* ================= HERO ================= */
+
+.hero {
+  min-height: 650px;
+  background: #10151b;
+  color: #f7f2e9;
+
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  width: min(650px, 52%);
+  margin-left: 10%;
+
+  position: relative;
+  z-index: 2;
+}
+
+.eyebrow {
+  font-size: 10px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  color: #8d9297;
+  margin-bottom: 22px;
+}
+
+.hero .eyebrow {
+  color: #b8bdc0;
+}
+
+.hero h1 {
+  font-size: clamp(58px, 8vw, 108px);
+  line-height: .84;
+  letter-spacing: -5px;
+  font-weight: 900;
+}
+
+.hero h1 span {
+  color: #bfc1c2;
+}
+
+.hero p {
+  max-width: 510px;
+  margin: 30px 0 24px;
+
+  color: #aeb2b5;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.button {
+  padding: 15px 25px;
+
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1px;
+
+  border: 1px solid #f5f0e7;
+}
+
+.button-light {
+  background: #f5f0e7;
+  color: #16191d;
+}
+
+.button-outline {
+  color: white;
+}
+
+.hero-circle {
+  position: absolute;
+
+  width: 650px;
+  height: 650px;
+
+  border: 1px solid #363d44;
+  border-radius: 50%;
+
+  right: -160px;
+  top: 10px;
+
+  box-shadow:
+    0 0 80px rgba(255,255,255,.015),
+    0 0 160px rgba(255,255,255,.01);
+}
+
+.hero-logo {
+  position: absolute;
+
+  right: 12%;
+  top: 46%;
+
+  transform: translateY(-50%);
+
+  z-index: 3;
+
+  text-align: center;
+}
+
+.hero-logo img {
+  width: 250px;
+  max-height: 190px;
+  object-fit: contain;
+}
+
+.hero-logo-text {
+  font-size: 34px;
+  font-weight: 900;
+  margin-top: -8px;
+}
+
+
+/* ================= LIGHT SECTIONS ================= */
+
+.section-light {
+  background: #f7f7f5;
+}
+
+
+/* ================= INTRO ================= */
+
+.intro {
+  padding: 115px 8%;
+  text-align: center;
+  min-height: 470px;
+}
+
+.intro h2,
+.center-heading h2 {
+  font-size: clamp(42px, 6vw, 72px);
+  line-height: .98;
+  letter-spacing: -3px;
+}
+
+.intro h2 span,
+.center-heading h2 span,
+.section-heading h2 span {
+  color: #999;
+}
+
+.intro p {
+  max-width: 700px;
+  margin: 30px auto 0;
+
+  color: #777;
+
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+
+/* ================= STORY ================= */
+
+.story {
+  padding: 100px 8%;
+}
+
+.section-heading h2 {
+  font-size: 56px;
+  letter-spacing: -3px;
+}
+
+.story-grid {
+  max-width: 1000px;
+  margin: 55px auto 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 90px;
+  align-items: center;
+}
+
+.story-copy p {
+  font-size: 14px;
+  color: #737373;
+  line-height: 1.65;
+  margin-bottom: 28px;
+}
+
+.dark-card {
+  background: #11171d;
+  color: #f5f0e7;
+
+  padding: 48px;
+  min-height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dark-card h3 {
+  font-size: 26px;
+  line-height: 1.1;
+}
+
+.card-line {
+  width: 40px;
+  border-top: 2px solid #eee;
+}
+
+
+/* ================= LEADERSHIP ================= */
+
+.leadership {
+  padding: 105px 8% 100px;
+}
+
+.center-heading {
+  text-align: center;
+}
+
+.center-heading p {
+  margin-top: 20px;
+  color: #8a8a8a;
+  font-size: 13px;
+}
+
+
+/* ================= WHY FBLA ================= */
+
+.why-fbla {
+  padding: 90px 8% 100px;
+  background: #10151b;
+  color: #f7f2e9;
+}
+
+.why-fbla .eyebrow {
+  color: #b9bec0;
+}
+
+.why-fbla h2 {
+  font-size: 50px;
+  margin-bottom: 65px;
+}
+
+.feature-grid {
+  max-width: 1000px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  border: 1px solid #343b42;
+}
+
+.feature-grid article {
+  padding: 28px;
+  border-right: 1px solid #343b42;
+  min-height: 180px;
+}
+
+.feature-grid article:last-child {
+  border-right: 0;
+}
+
+.feature-grid small {
+  color: #bbb;
+}
+
+.feature-grid h3 {
+  margin: 45px 0 10px;
+  font-size: 18px;
+}
+
+.feature-grid p {
+  color: #aaa;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+
+/* ================= JOIN ================= */
+
+.join {
+  padding: 105px 8%;
+}
+
+.join-top {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 80px;
+}
+
+.join h2 {
+  font-size: 58px;
+  letter-spacing: -3px;
+}
+
+.join h2 span {
+  color: #999;
+}
+
+.steps > div {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+
+  gap: 25px;
+
+  padding: 24px 0;
+
+  border-bottom: 1px solid #ddd;
+}
+
+.steps b {
+  font-size: 10px;
+  color: #777;
+}
+
+.steps h3 {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.steps p {
+  font-size: 12px;
+  color: #888;
+}
+
+
+/* ================= MEMBERSHIP ================= */
+
+.membership {
+  padding: 70px 8%;
+
+  background: #10151b;
+  color: #f7f2e9;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.membership h2 {
+  font-size: 48px;
+  letter-spacing: -2px;
+}
+
+.dues {
+  text-align: center;
+}
+
+.dues strong {
+  font-size: 68px;
+  display: block;
+}
+
+.dues span {
+  font-size: 10px;
+  color: #aaa;
+}
+
+
+/* ================= CALENDAR ================= */
+
+.calendar {
+  padding: 100px 8%;
+}
+
+.calendar-box {
+  max-width: 800px;
+  margin: 55px auto 0;
+
+  display: grid;
+  grid-template-columns: 55px 1fr 55px;
+
+  align-items: center;
+  gap: 20px;
+}
+
+.calendar-box > button {
+  height: 45px;
+
+  background: transparent;
+
+  border: 1px solid #ccc;
+
+  font-size: 20px;
+}
+
+.calendar-box h3 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.calendar-placeholder {
+  padding: 15px 0;
+
+  color: #777;
+  font-size: 12px;
+}
+
+.calendar-placeholder span {
+  display: block;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.calendar-placeholder p {
+  margin-top: 8px;
+}
+
+
+/* ================= FAQ ================= */
+
+.faq {
+  padding: 100px 8%;
+}
+
+.faq-list {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+details {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 5px;
+}
+
+summary {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::after {
+  content: "+";
+  float: right;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+details[open] summary::after {
+  content: "−";
+}
+
+details p {
+  font-size: 12px;
+  color: #777;
+  line-height: 1.6;
+  padding: 18px 25px 0 0;
+}
+
+
+/* ================= TAGLINE ================= */
+
+.tagline {
+  text-align: center;
+  padding: 110px 8%;
+  background: #f7f7f5;
+}
+
+.tagline h2 {
+  font-size: clamp(45px, 6vw, 80px);
+  line-height: .95;
+  letter-spacing: -4px;
+  color: #bfc1c2;
+}
+
+.tagline h2 span {
+  color: #202328;
+}
+
+
+/* ================= FOOTER ================= */
+
+.footer {
+  background: #ffffff;
+  color: #000000;
+
+  padding: 60px 8% 25px;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-logo {
+  width: 110px;
+  height: 110px;
+
+  border: 1px solid #666;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo img {
+  max-width: 80px;
+  max-height: 80px;
+  object-fit: contain;
+}
+
+.footer-info {
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.footer-info strong {
+  font-size: 13px;
+}
+
+.footer-info p {
+  margin-top: 8px;
+}
+
+.footer-bottom {
+  max-width: 1100px;
+  margin: 45px auto 0;
+
+  padding-top: 20px;
+
+  border-top: 1px solid #30363c;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+
+  color: #888;
+  font-size: 10px;
+}
+
+.footer-bottom nav {
+  display: flex;
+  gap: 22px;
+}
+
+.footer-bottom a {
+  color: #aaa;
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 800px) {
+
+  .navbar {
+    height: 65px;
+  }
+
+  .nav-inner {
+    padding: 0 20px;
+  }
+
+  .menu-button {
+    display: block;
+  }
+
+  .navbar nav {
+    display: none;
+
+    position: absolute;
+
+    top: 65px;
+    left: 0;
+    right: 0;
+
+    background: #10151b;
+
+    padding: 20px;
+
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .navbar nav.open {
+    display: flex;
+  }
+
+
+  .hero {
+    min-height: 680px;
+  }
+
+  .hero-content {
+    width: 90%;
+    margin: 0 auto;
+
+    align-self: flex-start;
+
+    padding-top: 100px;
+  }
+
+  .hero h1 {
+    font-size: 58px;
+  }
+
+  .hero-logo {
+    right: 5%;
+    top: auto;
+    bottom: 40px;
+    transform: none;
+  }
+
+  .hero-logo img {
+    width: 150px;
+  }
+
+  .hero-logo-text {
+    font-size: 22px;
+  }
+
+  .hero-circle {
+    width: 500px;
+    height: 500px;
+
+    right: -280px;
+  }
+
+
+  .story-grid,
+  .join-top {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+
+  .feature-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .feature-grid article {
+    border-bottom: 1px solid #343b42;
+  }
+
+
+  .membership {
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+  }
+
+
+  .footer-main {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-bottom nav {
+    flex-wrap: wrap;
+  }
+
+}
+
+
+@media (max-width: 500px) {
+
+  .intro,
+  .story,
+  .leadership,
+  .join,
+  .calendar,
+  .faq {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-grid article {
+    border-right: 0;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+  }
+
+  .join h2,
+  .membership h2 {
+    font-size: 42px;
+  }
+
+}
  
+
